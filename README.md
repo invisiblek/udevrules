@@ -1,11 +1,11 @@
 # Simple Android UDEV Rules
 
-These are handy for linux installs to give users priveledges to
+These are handy for Linux installs to give users priveledges to
 use adb. It's nice to not have to run adb as root (using sudo)
 all the time.
 
 Hopefully this set of rules covers all (most?) OEMs.
-If not, please submit a pull request.
+If not, please fork and submit a pull request.
 
 Simply clone the repo, cd to it and run install.sh:
 ```
