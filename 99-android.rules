@@ -1,34 +1,74 @@
-#Glass
-SUBSYSTEM=="usb", ATTR{idVendor}=="0451", GROUP="sudo"
 #Acer
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", GROUP="sudo"
+# Asus
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", GROUP="sudo"
 #Dell
 SUBSYSTEM=="usb", ATTR{idVendor}=="413c", GROUP="sudo"
 #Foxconn
 SUBSYSTEM=="usb", ATTR{idVendor}=="0489", GROUP="sudo"
+#Fujitsu & Fujitsu Toshiba
+SUBSYSTEM=="usb", ATTR{idVendor}=="04c5", GROUP="sudo"
 #Garmin-Asus
 SUBSYSTEM=="usb", ATTR{idVendor}=="091E", GROUP="sudo"
+#Glass
+SUBSYSTEM=="usb", ATTR{idVendor}=="0451", GROUP="sudo"
 #Google
 SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", GROUP="sudo"
+#Haier
+SUBSYSTEM=="usb", ATTR{idVendor}=="201e", GROUP="sudo"
+#Hisense
+SUBSYSTEM=="usb", ATTR{idVendor}=="109b", GROUP="sudo"
 #HTC
 SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", GROUP="sudo"
 #Huawei
 SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", GROUP="sudo"
+#K-Touch
+SUBSYSTEM=="usb", ATTR{idVendor}=="24e3", GROUP="sudo"
+#KT Tech
+SUBSYSTEM=="usb", ATTR{idVendor}=="2116", GROUP="sudo"
 #Kyocera
 SUBSYSTEM=="usb", ATTR{idVendor}=="0482", GROUP="sudo"
+#Lenovo
+SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", GROUP="sudo"
 #LG
 SUBSYSTEM=="usb", ATTR{idVendor}=="1004", GROUP="sudo"
 #Motorola
 SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", GROUP="sudo"
+#MTK
+SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", GROUP="sudo"
+#NEC
+SUBSYSTEM=="usb", ATTR{idVendor}=="0409", GROUP="sudo"
+#Nook
+SUBSYSTEM=="usb", ATTR{idVendor}=="2080", GROUP="sudo"
 #Nvidia
 SUBSYSTEM=="usb", ATTR{idVendor}=="0955", GROUP="sudo"
+#OTGV
+SUBSYSTEM=="usb", ATTR{idVendor}=="2257", GROUP="sudo"
 #Pantech
 SUBSYSTEM=="usb", ATTR{idVendor}=="10A9", GROUP="sudo"
+#Pegatron
+SUBSYSTEM=="usb", ATTR{idVendor}=="1d4d", GROUP="sudo"
+#Philips
+SUBSYSTEM=="usb", ATTR{idVendor}=="0471", GROUP="sudo"
+#PMC-Sierra
+SUBSYSTEM=="usb", ATTR{idVendor}=="04da", GROUP="sudo"
+#Qualcomm
+SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", GROUP="sudo"
+#Oppo
+SUBSYSTEM=="usb", ATTR{idVendor}=="22d9", GROUP="sudo"
+#SK Telesys
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f53", GROUP="sudo"
 #Samsung
 SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", GROUP="sudo"
 #Sharp
 SUBSYSTEM=="usb", ATTR{idVendor}=="04dd", GROUP="sudo"
+#Sony
+SUBSYSTEM=="usb", ATTR{idVendor}=="054c", GROUP="sudo"
 #Sony Ericsson
 SUBSYSTEM=="usb", ATTR{idVendor}=="0fce", GROUP="sudo"
+#Teleepoch
+SUBSYSTEM=="usb", ATTR{idVendor}=="2340", GROUP="sudo"
+#Toshiba
+SUBSYSTEM=="usb", ATTR{idVendor}=="0930", GROUP="sudo"
 #ZTE
 SUBSYSTEM=="usb", ATTR{idVendor}=="19D2", GROUP="sudo"
