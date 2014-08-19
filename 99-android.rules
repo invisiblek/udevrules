@@ -1,0 +1,34 @@
+#Glass
+SUBSYSTEM=="usb", ATTR{idVendor}=="0451", GROUP="sudo"
+#Acer
+SUBSYSTEM=="usb", ATTR{idVendor}=="0502", GROUP="sudo"
+#Dell
+SUBSYSTEM=="usb", ATTR{idVendor}=="413c", GROUP="sudo"
+#Foxconn
+SUBSYSTEM=="usb", ATTR{idVendor}=="0489", GROUP="sudo"
+#Garmin-Asus
+SUBSYSTEM=="usb", ATTR{idVendor}=="091E", GROUP="sudo"
+#Google
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", GROUP="sudo"
+#HTC
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", GROUP="sudo"
+#Huawei
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", GROUP="sudo"
+#Kyocera
+SUBSYSTEM=="usb", ATTR{idVendor}=="0482", GROUP="sudo"
+#LG
+SUBSYSTEM=="usb", ATTR{idVendor}=="1004", GROUP="sudo"
+#Motorola
+SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", GROUP="sudo"
+#Nvidia
+SUBSYSTEM=="usb", ATTR{idVendor}=="0955", GROUP="sudo"
+#Pantech
+SUBSYSTEM=="usb", ATTR{idVendor}=="10A9", GROUP="sudo"
+#Samsung
+SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", GROUP="sudo"
+#Sharp
+SUBSYSTEM=="usb", ATTR{idVendor}=="04dd", GROUP="sudo"
+#Sony Ericsson
+SUBSYSTEM=="usb", ATTR{idVendor}=="0fce", GROUP="sudo"
+#ZTE
+SUBSYSTEM=="usb", ATTR{idVendor}=="19D2", GROUP="sudo"
