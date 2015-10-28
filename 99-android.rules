@@ -22,6 +22,10 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="109b", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", GROUP="sudo"
 #Huawei
 SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", GROUP="sudo"
+#Inforce Fastboot bootloader interface
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", MODE="0777", GROUP="sudo"
+#Inforce Device adb interface
+SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", MODE="0777", GROUP="sudo"
 #K-Touch
 SUBSYSTEM=="usb", ATTR{idVendor}=="24e3", GROUP="sudo"
 #KT Tech
