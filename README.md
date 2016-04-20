@@ -1,6 +1,6 @@
 # Simple Android UDEV Rules
 
-These are handy for Linux installs to give users priveledges to
+These are handy for Linux installs to give users privledges to
 use adb. It's nice to not have to run adb as root (using sudo)
 all the time.
 
