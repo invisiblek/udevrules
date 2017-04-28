@@ -1,8 +1,8 @@
 #Acer
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", GROUP="sudo"
-# Asus
+#Asus
 SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", GROUP="sudo"
-# BQ
+#BQ
 SUBSYSTEM=="usb", ATTR{idVendor}=="2a47", GROUP="sudo"
 #Coolpad
 SUBSYSTEM=="usb", ATTR{idVendor}=="1ebf", GROUP="sudo"
@@ -50,6 +50,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0409", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="2080", GROUP="sudo"
 #Nvidia
 SUBSYSTEM=="usb", ATTR{idVendor}=="0955", GROUP="sudo"
+#Oppo
+SUBSYSTEM=="usb", ATTR{idVendor}=="22d9", GROUP="sudo"
 #OTGV
 SUBSYSTEM=="usb", ATTR{idVendor}=="2257", GROUP="sudo"
 #Pantech
@@ -62,14 +64,12 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0471", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="04da", GROUP="sudo"
 #Qualcomm
 SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", GROUP="sudo"
-#Oppo
-SUBSYSTEM=="usb", ATTR{idVendor}=="22d9", GROUP="sudo"
-#SK Telesys
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f53", GROUP="sudo"
 #Samsung
 SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", GROUP="sudo"
 #Sharp
 SUBSYSTEM=="usb", ATTR{idVendor}=="04dd", GROUP="sudo"
+#SK Telesys
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f53", GROUP="sudo"
 #Sony
 SUBSYSTEM=="usb", ATTR{idVendor}=="054c", GROUP="sudo"
 #Sony Ericsson
