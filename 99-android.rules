@@ -4,6 +4,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0502", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", GROUP="sudo"
 # BQ
 SUBSYSTEM=="usb", ATTR{idVendor}=="2a47", GROUP="sudo"
+#Coolpad
+SUBSYSTEM=="usb", ATTR{idVendor}=="1ebf", GROUP="sudo"
 #Dell
 SUBSYSTEM=="usb", ATTR{idVendor}=="413c", GROUP="sudo"
 #Foxconn
@@ -36,6 +38,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0482", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", GROUP="sudo"
 #LG
 SUBSYSTEM=="usb", ATTR{idVendor}=="1004", GROUP="sudo"
+#Micromax
+SUBSYSTEM=="usb", ATTR{idVendor}=="2a96", GROUP="sudo"
 #Motorola
 SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", GROUP="sudo"
 #MTK
