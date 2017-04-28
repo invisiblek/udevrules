@@ -42,6 +42,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", GROUP="sudo"
 #NEC
 SUBSYSTEM=="usb", ATTR{idVendor}=="0409", GROUP="sudo"
+#Nextbit
+SUBSYSTEM=="usb", ATTR{idVendor}=="2c3f", GROUP="sudo"
 #Nook
 SUBSYSTEM=="usb", ATTR{idVendor}=="2080", GROUP="sudo"
 #Nvidia
