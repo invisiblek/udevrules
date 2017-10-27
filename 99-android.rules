@@ -8,6 +8,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="2a47", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="1ebf", GROUP="sudo"
 #Dell
 SUBSYSTEM=="usb", ATTR{idVendor}=="413c", GROUP="sudo"
+#Essential
+SUBSYSTEM=="usb", ATTR{idVendor}=="2e17", GROUP="sudo"
 #Foxconn
 SUBSYSTEM=="usb", ATTR{idVendor}=="0489", GROUP="sudo"
 #Fujitsu & Fujitsu Toshiba
