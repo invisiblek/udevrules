@@ -68,6 +68,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0471", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="04da", GROUP="sudo"
 #Qualcomm
 SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", GROUP="sudo"
+#Razer
+SUBSYSTEM=="usb", ATTR{idVendor}=="1532", GROUP="sudo"
 #Samsung
 SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", GROUP="sudo"
 #Sharp
