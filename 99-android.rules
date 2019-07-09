@@ -1,5 +1,7 @@
 #Acer
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", GROUP="sudo"
+#Amazon
+SUBSYSTEM=="usb", ATTR{idVendor}=="1949", GROUP="sudo"
 #Asus
 SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", GROUP="sudo"
 #BQ
