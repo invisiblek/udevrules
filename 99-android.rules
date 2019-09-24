@@ -88,5 +88,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="2340", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="0930", GROUP="sudo"
 #Wileyfox
 SUBSYSTEM=="usb", ATTR{idVendor}=="2970", GROUP="sudo"
+#Xiaomi
+SUBSYSTEM=="usb", ATTR{idVendor}=="2717", GROUP="sudo"
 #ZTE
 SUBSYSTEM=="usb", ATTR{idVendor}=="19D2", GROUP="sudo"
